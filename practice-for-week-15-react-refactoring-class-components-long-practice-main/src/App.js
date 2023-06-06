@@ -30,7 +30,7 @@ const App = () => {
     e.preventDefault();
     setShowClock(prevShowClock => !prevShowClock)
   }
-  
+
   return (
     <div className="widgets">
       <Folder folders={folders} />
